@@ -1,0 +1,6 @@
+.container-month {
+  grid-template-rows: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  flex: 1 1 0%;
+  display: grid;
+}

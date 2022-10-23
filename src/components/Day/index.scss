@@ -1,0 +1,49 @@
+.container-day {
+  border: 1px solid rgb(204, 204, 204);
+  display: flex;
+  flex-direction: initial;
+  justify-content: flex-start;
+
+  header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .texts {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      margin: 0.25rem 0;
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+    }
+
+    .texts2 {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      margin: 0.25rem 0;
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+    }
+
+    .current-day {
+      background: lightblue;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0.25rem;
+      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+
+  .event-container {
+    cursor: pointer;
+  }
+
+  .flex-1 {
+    flex: 1 1 0%;
+  }
+}

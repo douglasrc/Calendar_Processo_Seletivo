@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --red: #e52e2d;
+  --blue: #5429cc;
+  --green: #33cc95;
+  --darkblue: #363f5f;
+
+  --blue-light: #6933ff;
+
+  --text-title: #363f5f;
+  --text-boby: #969cb3;
+
+  --background: #f0f2f5;
+  --shape: #ffffff;
+}

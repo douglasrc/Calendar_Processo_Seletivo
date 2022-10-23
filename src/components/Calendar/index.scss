@@ -1,0 +1,53 @@
+header {
+  display: inline-flex;
+  align-items: center;
+  gap: 10rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .calendar-buttons {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+
+    .close {
+      background: var(--red);
+    }
+
+    button {
+      width: 10rem;
+      padding: 0 1.5rem;
+      height: 3rem;
+      background: var(--darkblue);
+      color: #ffffff;
+      border-radius: 0.25rem;
+      border: 0;
+      font-size: 1rem;
+      font-family: "Roboto", sans-serif;
+      margin-top: 1.5rem;
+      font-weight: 600;
+      cursor: pointer;
+
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+  }
+}
