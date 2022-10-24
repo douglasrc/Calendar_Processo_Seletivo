@@ -50,4 +50,8 @@ header {
     font-weight: 600;
     font-family: "Roboto", sans-serif;
   }
+  @media (width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
