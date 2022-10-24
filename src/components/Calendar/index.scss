@@ -1,4 +1,10 @@
 header {
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+
   display: inline-flex;
   align-items: center;
   gap: 10rem;
@@ -49,9 +55,5 @@ header {
     font-size: 25px;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
-  }
-  @media (width: 768px) {
-    display: flex;
-    flex-wrap: wrap;
   }
 }
